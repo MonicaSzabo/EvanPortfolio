@@ -1,169 +1,175 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-    <meta name="theme-color" content="#2196F3">
-    <title>Hattler-Co</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Hattler-Co</title>
 
-    <!-- CSS  -->
-    <link href="assets/min/plugin-min.css" type="text/css" rel="stylesheet">
-    <link href="assets/css/style.css" type="text/css" rel="stylesheet" >
+  <!-- CSS  -->
+  <link href="assets/css/font-awesome.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
-    <!-- Font -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
-<style>
-* {
-    font-family: 'Raleway', sans-serif;
-}
-.carousel-slider {
-    height: 400px !important;
-}
-</style>
-<body id="top" class="scrollspy">
+<body>
+  <nav class="black navbar-fixed" role="navigation">
+    <div class="nav-wrapper container white-text">
+      <a id="logo-container" href="#" class="brand-logo">Evan Figueroa - The Environment Artist</a>
+      <ul class="right hide-on-med-and-down white-text">
+        <li><a href="#">Work</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
 
-<!-- Pre Loader -->
-<div id="loader-wrapper">
-    <div id="loader"></div>
- 
-    <div class="loader-section section-left"></div>
-    <div class="loader-section section-right"></div>
- 
-</div>
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Work</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
 
-<!--Navigation-->
- <div class="navbar-fixed">
-    <nav id="nav_f" class="default_color" role="navigation">
-        <div class="container">
-            <div class="nav-wrapper">
-            <a href="#" id="logo-container" class="brand-logo">Evan Figueroa</a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="#work">Work</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-                <ul id="nav-mobile" class="side-nav">
-                    <li><a href="#work">Work</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-            </div>
-        </div>
-    </nav>
-</div>
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center white-text text-lighten-2">Hattler-Co
+<!--         <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div> -->
+        <br><br>
 
-<!--Hero-->
-<div class="section no-pad-bot parallax-container" id="index-banner">
-        <div class="parallax"><img src="assets/img/Haunted_03.jpg"></div>
-        <h1 class="center white-text" style="margin-top: 160px;">Hattler-Co</h1>
-    <!-- <div class="carousel carousel-slider">
-        <a class="carousel-item" href="#one!"><img src="http://lorempixel.com/800/400/food/1"></a>
-        <a class="carousel-item" href="#two!"><img src="http://lorempixel.com/800/400/food/2"></a>
-        <a class="carousel-item" href="#three!"><img src="http://lorempixel.com/800/400/food/3"></a>
-        <a class="carousel-item" href="#four!"><img src="http://lorempixel.com/800/400/food/4"></a>
-    </div> -->
-</div>
+      </div>
+    </div>
+    <div class="parallax"><img src="assets/img/Haunted_03.jpg" alt="Haunted House"></div>
+  </div>
+
 
 <!--Work-->
-<div class="section scrollspy" id="work">
+<div class="section" id="work">
     <div class="container">
-        <h2 class="header text_b">Work </h2>
+        <h2 class="header white-ish">Work</h2>
         <div class="row">
             <div class="col s12 m4 l4">
                 <div class="card z-depth-5">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="assets/img/ricks-car-square.jpg">
+                        <a href="somepage.html"><img class="" src="assets/img/ricks-car-square.jpg"></a>
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Rick's Car <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">See More</a></p>
+                        <span class="card-title activator grey-text text-darken-4">Rick's Car <i class="material-icons right">more_vert</i></span>
+                        <br>
+                        <span class="activator blue-text text-darken-2">About</span>
+                        <br>
                     </div>
                     <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Rick's Car <i class="mdi-navigation-close right"></i></span>
+                        <br><br>
+                        <span class="card-title grey-text text-darken-4"><a href="somepage.html" class="grey-text text-darken-4">Rick's Car</a><i class="material-icons right" style="margin-top: -10px;">close</i></span>
+                        <br>
                         <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                        <p><a href="#">See More</a></p>
+                        <p><a href="somepage.html" class="blue-text text-darken-2">See More</a></p>
                     </div>
                 </div>
             </div>
             <div class="col s12 m4 l4">
                 <div class="card z-depth-5">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="assets/img/esprit-square.jpg">
+                        <a href="somepage.html"><img class="" src="assets/img/esprit-square.jpg"></a>
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Lotus Esprit <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">See More</a></p>
+                        <span class="card-title activator grey-text text-darken-4">Lotus Esprit <i class="material-icons right">more_vert</i></span>
+                        <br>
+                        <span class="activator blue-text text-darken-2">About</span>
+                        <br>
                     </div>
                     <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Lotus Esprit <i class="mdi-navigation-close right"></i></span>
+                        <br><br>
+                        <span class="card-title grey-text text-darken-4"><a href="somepage.html" class="grey-text text-darken-4">Lotus Esprit</a><i class="material-icons right" style="margin-top: -10px;">close</i></span>
+                        <br>
                         <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                        <p><a href="#">See More</a></p>
+                        <p><a href="somepage.html" class="blue-text text-darken-2">See More</a></p>
                     </div>
                 </div>
             </div>
             <div class="col s12 m4 l4">
                 <div class="card z-depth-5">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="assets/img/haunted-square.jpg">
+                        <a href="somepage.html"><img class="" src="assets/img/haunted-square.jpg"></a>
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Haunted Mansion <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">See More</a></p>
+                        <span class="card-title activator grey-text text-darken-4" style="font-size: 22px;">Haunted Mansion <i class="material-icons right">more_vert</i></span>
+                        <br>
+                        <span class="activator blue-text text-darken-2">About</span>
+                        <br>
                     </div>
                     <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Haunted Mansion <i class="mdi-navigation-close right"></i></span>
+                        <br><br>
+                        <span class="card-title grey-text text-darken-4" style="font-size: 22px;"><a href="somepage.html" class="grey-text text-darken-4">Haunted Mansion</a><i class="material-icons right" style="margin-top: -10px;">close</i></span>
+                        <br>
                         <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                        <p><a href="#">See More</a></p>
+                        <p><a href="somepage.html" class="blue-text text-darken-2">See More</a></p>
                     </div>
                 </div>
             </div>
             <div class="col s12 m4 l4">
                 <div class="card z-depth-5">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="assets/img/gundam-square.jpg">
+                        <a href="somepage.html"><img class="" src="assets/img/gundam-square.jpg"></a>
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Gundam <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">See More</a></p>
+                        <span class="card-title activator grey-text text-darken-4">Gundam <i class="material-icons right">more_vert</i></span>
+                        <br>
+                        <span class="activator blue-text text-darken-2">About</span>
+                        <br>
                     </div>
                     <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Gundam <i class="mdi-navigation-close right"></i></span>
+                        <br><br>
+                        <span class="card-title grey-text text-darken-4"><a href="somepage.html" class="grey-text text-darken-4">Gundam</a><i class="material-icons right" style="margin-top: -10px;">close</i></span>
+                        <br>
                         <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                        <p><a href="#">See More</a></p>
+                        <p><a href="somepage.html" class="blue-text text-darken-2">See More</a></p>
                     </div>
                 </div>
             </div>
             <div class="col s12 m4 l4">
                 <div class="card z-depth-5">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="assets/img/pirate-square.jpg">
+                        <a href="somepage.html"><img class="" src="assets/img/pirate-square.jpg"></a>
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Pirate101 <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">See More</a></p>
+                        <span class="card-title activator grey-text text-darken-4">Pirate101 <i class="material-icons right">more_vert</i></span>
+                        <br>
+                        <span class="activator blue-text text-darken-2">About</span>
+                        <br>
                     </div>
                     <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Pirate101 <i class="mdi-navigation-close right"></i></span>
+                        <br><br>
+                        <span class="card-title grey-text text-darken-4"><a href="somepage.html" class="grey-text text-darken-4">Pirate101</a><i class="material-icons right" style="margin-top: -10px;">close</i></span>
+                        <br>
                         <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                        <p><a href="#">See More</a></p>
+                        <p><a href="somepage.html" class="blue-text text-darken-2">See More</a></p>
                     </div>
                 </div>
             </div>
             <div class="col s12 m4 l4">
                 <div class="card z-depth-5">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="assets/img/wizard-square.jpg">
+                        <a href="somepage.html"><img class="" src="assets/img/wizard-square.jpg"></a>
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Wizard101 <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">See More</a></p>
+                        <span class="card-title activator grey-text text-darken-4">Wizard101 <i class="material-icons right">more_vert</i></span>
+                        <br>
+                        <span class="activator blue-text text-darken-2">About</span>
+                        <br>
                     </div>
                     <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Wizard101 <i class="mdi-navigation-close right"></i></span>
+                        <br><br>
+                        <span class="card-title grey-text text-darken-4"><a href="somepage.html" class="grey-text text-darken-4">Wizard101</a><i class="material-icons right" style="margin-top: -10px;">close</i></span>
+                        <br>
                         <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                        <p><a href="#">See More</a></p>
+                        <p><a href="somepage.html" class="blue-text text-darken-2">See More</a></p>
                     </div>
                 </div>
             </div>
@@ -171,17 +177,24 @@
     </div>
 </div>
 
-<!--Parallax-->
-<div class="parallax-container">
-    <div class="parallax"><img src="assets/img/Haunted_01.jpg"></div>
-</div>
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <!-- <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5> -->
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="assets/img/Haunted_01.jpg" alt="Unsplashed background img 2"></div>
+  </div>
 
 <!--About Me-->
-<div class="section scrollspy" id="about">
+<div class="section" id="about">
     <div class="container">
-        <h2 class="header text_b"> About Me </h2>
+        <h2 class="header white-ish"> About Me </h2>
         <div class="row">
-            <div class="col s12 m9 l9 text_white">
+            <div class="col s12 m9 l9 white-text">
                 <p>I love creating environments for video games because I get to build new and interesting worlds for people to explore, worlds born in the imagination where anything can happen.</p>
                 <p>I find a lot of inspiration from films like Tron, and Pacific Rim, games like Half-Life 2, and Bioshock, animators like Hayao Miyazaki, and places like Disneyland. I am inspired by the richness and the beauty of the worlds they create.</p>
                 <p>As a kid I never expected my video game modding hobby to ever become a career, but when I discovered that you could get a degree in video games I knew that's what I wanted to do, and I never looked back.</p>
@@ -196,8 +209,9 @@
     </div>
 </div>
 
+
 <!--Footer-->
-<footer id="contact" class="page-footer default_color scrollspy">
+<footer id="contact" class="page-footer black">
     <div class="container">  
         <div class="row">
             <div class="col 16 m6 s12 center">
@@ -234,17 +248,19 @@
             </div>
         </div>
     </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © 2017 Copyright
+            <a class="grey-text text-lighten-4 right" href="http://www.monicaszabo.com" target="_blank">Made by Monica Szabo</a>
+        </div>
+    </div>
 </footer>
 
-<!--  Scripts-->
-<script src="assets/min/plugin-min.js"></script>
-<script src="assets/min/custom-min.js"></script>
-<script type="text/javascript">
-    $(function(){ $('.carousel.carousel-slider').carousel({full_width: true}); });
-</script>
 
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="assets/js/materialize.js"></script>
+  <script src="assets/js/init.js"></script>
 
-</body>
+  </body>
 </html>
-
-
