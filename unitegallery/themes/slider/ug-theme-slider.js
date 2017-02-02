@@ -39,6 +39,7 @@ function UGTheme_slider(){
 		gallery_width:2000,	
 		gallery_height:1000,
 		slider_control_zoom:false,
+		slider_enable_progress_indicator: false,
 	};
 	
 	
