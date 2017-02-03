@@ -11,7 +11,23 @@
 }
 
 .brand-logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Mr Dafoe', cursive;
+}
+
+.header {
+  font-family: 'Mr Dafoe', cursive;
+}
+
+.card-content{
+  background-color: #106651;
+}
+
+.card .card-reveal {
+  background-color: #106651;
+}
+
+.linking:hover {
+  text-decoration: underline;
 }
 
 .navbar-fixed {
