@@ -7,23 +7,23 @@
  */
 
 * {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .brand-logo {
-  font-family: 'Mr Dafoe', cursive;
+  font-family: 'Orbitron', cursive;
 }
 
 .header {
-  font-family: 'Mr Dafoe', cursive;
+  font-family: 'Orbitron', cursive;
 }
 
 .card-content{
-  background-color: #106651;
+  background-color: #262626;
 }
 
 .card .card-reveal {
-  background-color: #106651;
+  background-color: #262626;
 }
 
 .linking:hover {
@@ -34,6 +34,8 @@
   position: fixed;
   height: 56px;
   z-index: 997;
+  background-color: #262626;
+  padding-bottom: 63px;
 }
 
 #index-banner {
@@ -101,4 +103,36 @@ footer.page-footer {
 
 .activator {
   cursor: pointer;
+}
+
+.card {
+  background-color: #000;
+}
+
+nav .brand-logo {
+  font-size: 35px;
+}
+
+@media screen and (max-width: 1290px) {
+  nav .brand-logo {
+        font-size: 27px;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  nav .brand-logo {
+        font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  nav .brand-logo {
+        font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  nav .brand-logo {
+        font-size: 15px;
+  }
 }
