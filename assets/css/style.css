@@ -105,6 +105,14 @@ footer.page-footer {
   cursor: pointer;
 }
 
+.white-border {
+   margin: 0 auto;
+    border-color: white;
+    border-style: solid;
+    border-radius: 29px;
+    padding: 12px;
+}
+
 .card {
   background-color: #000;
 }
