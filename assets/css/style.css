@@ -106,12 +106,20 @@ footer.page-footer {
 }
 
 .white-border {
-   margin: 0 auto;
+    width: 19%;
+    margin: 0 auto;
     border-color: white;
     border-style: solid;
     border-radius: 29px;
     padding: 12px;
 }
+
+@media screen and (max-width: 1000px) {
+  .white-border {
+        width: 50%;
+  }
+}
+
 
 .card {
   background-color: #000;
@@ -139,7 +147,7 @@ nav .brand-logo {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
   nav .brand-logo {
         font-size: 15px;
   }
